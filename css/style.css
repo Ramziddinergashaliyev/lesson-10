@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1225px;
+  margin: 0 auto;
+}
+header {
+  background-color: #0A0A09;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+.nav__list__item__text {
+  color: rgba(255, 255, 255, 0.40);
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.81px;
+}
+.nav__list__item__text:hover {
+  color: white;
+}
+.nav__list__item__number {
+  color: #FFF;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.81px;
+}
+.header__section {
+  background: url('../images/auto\ arenda.png'), url('../images/gold-bmw-m4-car\ 1.png'),
+  url('../images/Ellipse\ 1\ \(1\).png');
+  background-repeat: no-repeat;
+  background-position: center, right bottom,right;
+  padding-bottom: 150px;
+  padding-top: 126px;
+}
+
+.nash__autopark {
+  height: 100%;
+}
+
+.section__auto__arenda {
+  color: #FFF;
+  width: 1119px;
+  font-family: Muller;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -3.15px;
+  padding-top: 100px;
+}
+.paragrof__text {
+  color: #D4CC7B;
+  font-family: Muller;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -3.15px;
+}
+.section__auto__text {
+  color: #FFF;
+  font-family: Muller;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.35px;
+  padding-top: 48px;
+}
+.section__btn {
+  width: 252.7px;
+  height: 62.846px;
+  transform: rotate(-0.106deg);
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(280deg, #FFF -23.59%, #DBB500 115.07%);
+  box-shadow: 0px 0px 20px 0px #D6A500;
+  color: #000;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.08px;
+  margin-top: 88px;
+}
+
+.section__top {
+  text-align: center;
+  padding: 75px;
+}
+.section__bottom {
+  flex-wrap: wrap;
+  gap: 10px;
+  /* justify-content: space-between; */
+}
+.auto__card {
+  fill: #0B0D0F;
+  stroke-width: 1px;
+  width: 377px;
+  height: 572px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(126, 126, 126, 0.40) ;
+  box-shadow: 3px 3px 10px rgba(124, 124, 124, 0.20);
+}
+ 
+.auto__card__top {
+  display: flex;
+  padding: 20px 20px;
+}
+.section__bottom {
+  display: flex;
+  gap: 30px;
+}
+
+.section__bottom img {
+  padding-left: 6px;
+}
+.section__avtopark {
+  color: #FFF;
+  font-family: Muller;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.16px;
+}
+.section__avtopark__text {
+  color: #D4CC7B;
+  font-family: Muller;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.16px;
+}
+.section__bottom__btn:hover {
+  background-color: #DBB500;
+  color: #000;
+}
+.card__bmw {
+  color: #FFF;
+  text-align: center;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.08px;
+}
+.card__text__dvigatel {
+  color: #B3B5B7;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.81px;
+  padding: 0px 10px;
+}
+.section__bottom__cutki {
+  color: #FFF;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.08px;
+  text-align: center;
+  padding-top: 24px;
+}
+.section__bottom__btn {
+  width: 300px;
+  height: 60px;
+  border-radius: 40px;
+  background: black;
+  border: 1px solid yellow;
+  color: #FFF;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.08px;
+  margin: 20px 25px;
+}
+
+main {
+  height: 981px;
+  border: 1px solid #242626;
+  background: #161616;
+  box-shadow: 0px 0px 20px 0px rgba(37, 37, 37, 0.80);
+  background: url('../images/blue-bmw-4-series-car\ 2.png');
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-position:bottom left 0px;
+}
+.main__card {
+  margin-top: 30px;
+}
+.main__card__text {
+  color: #FFF;
+  font-family: Muller;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.16px;
+}
+.main__bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 971px;
+  height: 527px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+.main__btn {
+  border-radius: 10px;
+  border: 1px solid #F8B500;
+  background: #ECD774;
+  box-shadow: 0px 0px 5px 0px #EFAC00;
+  color: #0C0F12;
+  font-family: Muller;
+  margin-left: 500px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -1.08px;
+  width: 241px;
+  height: 51px;
+  flex-shrink: 0;
+}
+.main__text {
+  color: #FFF;
+  text-align: center;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.08px;
+  padding: 30px 0px;
+}
+.card__text__uslovia {
+  color: #ECD774;
+  font-family: Muller;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.16px; 
+}
+.main__btn:hover {
+  background-color: white;
+  color: #000;
+}
+.main__card__text {
+  text-align: center;
+  padding: 28px 0px;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__right {
+  margin-top: 130px
+}
+.footer__text {
+  color: #FFF;
+  font-family: Muller;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.5%;
+  letter-spacing: -1.08px;
+}
+
+.footer__adress {
+  color: #FFF;
+  text-align: center;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 127.5%;
+  letter-spacing: -1.08px;
+  justify-content: flex-start;
+}
+
+.footer__left {
+  width: 397px;
+}
+.footer__abaout {
+  margin-top: 101px;
+}
+
+.footer__right__icon {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  padding: 30px 0px;
+}
